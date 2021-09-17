@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+/* set this style to make sure what is inside the div and the scope of the body */
+body {
+  background-color: #FFFFFF;
+  margin: auto;
+  height: 600px;
+  width: 600px;
+}
+/* this is the MY DEVELOPER SKILLS header */
+.header {
+  background-color: #93C47D;
+  justify-items: center;
+  text-align: center;
+  font-size: 10px;
+  width: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+/* the add skill button */
+#addSkill {
+  background-color: white;
+  border: solid #93C47D;
+  color: #93C47D;
+}
+/* this is referencing the input box */
+#inputskill {
+  border: solid #93C47D;
+  width: 60%;
+
+}
+/* this is the square x that appears before added skills */
+#rmbtn {
+  background-color:red;
+  color: white;
+}
+
+/* this is for the new text that gets generated and makes orange */
+#newText {
+  color: orange;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  ;
+}
+/* this is the container div that wraps around everything after the body */
+.container {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+  width: 600px;
+  border: solid grey;
+}
